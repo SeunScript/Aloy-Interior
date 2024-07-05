@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x:hidden;
+}
+.logo img {
+    width: 80px;
+    height: 50px;
+    /* align-items: center; */
+    gap: 5px;
+}
+
+.logo, h3 {
+    display:flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 28px;
+    color: white;
+}
+.nav {
+    left: 0;
+    top: 0;
+    position:sticky;
+    display: flex;
+    background-color: rgb(122, 91, 48);
+    text-align:right;
+    align-items:center;
+    padding: 4px 16px; 
+    justify-content: space-between;
+}
+
+
+.nav-list {
+    margin-left: 0%;
+    display: flex;
+    list-style-type: none;
+}
+.nav-list li a {
+    text-align: center;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover {
+    background-color:rgb(160, 134, 97);
+    text-decoration: underline;
+    color: black;
+
+}
+
+h5 a  {
+    border-radius: 0px;
+    text-decoration: none;
+    /* background-color: rgb(253, 253, 253); */
+    padding: 20px;
+    color: rgb(253, 253, 253);
+}
+h5 a:hover {
+    background-color: rgb(160, 134, 97);
+    color: black;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+   
+    color: white;
+}
+.header {
+    background-image: url("../images/img10.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+     background-size:100% 100%;
+}
+
+.bg-dark {
+    background-color: rgba(8, 8, 8, 0.726);
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+
+    padding-bottom: 50px;
+    padding-top: 350px;
+    padding-left: 20px;
+}
+
+.services {
+   
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.services2 {
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 800px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 55px;
+    font-family: fantasy;
+    padding: 40px;
+}
+
+.services2 div img {
+    width: 100px;
+    height: 100px;
+}
+p {
+    font-size: 20px;
+    
+}
+
+.review {
+    display:flex;
+    padding: 40px;
+    width: 1500px;
+    align-items: center;
+}
+
+.footer {
+    background-color: rgb(122, 91, 48);
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-link a {
+    font-size: 30px;
+    text-decoration: none;
+}
